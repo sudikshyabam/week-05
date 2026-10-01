@@ -1,0 +1,42 @@
+/* Starbucks Official Palette Variables */
+:root {
+  /* Primary Brand Colors */
+  --sb-primary-green: #00704A;   /* Starbucks Green (Primary) */
+  --sb-house-green:   #1E3932;   /* House Green (Secondary/Dark) */
+  --sb-accent-green:  #00A862;   /* Light Accent Green */
+
+  /* Neutral & Base Colors */
+  --sb-warm-white:    #F1F0EB;   /* Background Warm White */
+  --sb-white:         #FFFFFF;   /* Pure White */
+  --sb-black:         #000000;   /* Pure Black */
+  --sb-text-dark:     #212121;   /* Off-black text */
+}
+
+/* Example Usage */
+body {
+  background-color: var(--sb-warm-white);
+  color: var(--sb-text-dark);
+  font-family: 'SoDo Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.starbucks-card {
+  background-color: var(--sb-house-green);
+  color: var(--sb-white);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.starbucks-btn {
+  background-color: var(--sb-primary-green);
+  color: var(--sb-white);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.starbucks-btn:hover {
+  background-color: var(--sb-accent-green);
+}
